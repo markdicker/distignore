@@ -1,7 +1,7 @@
 {
   "name": "distignore",
-  "version": "0.1.0",
-  "description": "USed with gulp.src tp remove files excluded by .distignore in gulp pipelines.",
+  "version": "0.1.1",
+  "description": "Used with gulp.src tp remove files excluded by .distignore in gulp pipelines.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

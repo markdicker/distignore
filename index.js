@@ -34,8 +34,8 @@ module.exports = function(opt)
 
     for ( i = 0; i < Ignores.length; i++ ) 
     {
-
-      if ( '' == Ignores[i] )
+      // If line is blank or a comment then ignore it.
+      if ( '' == Ignores[i] || Ignores[i][0] == '#' )
         continue;
       
       // console.log( path.join( path.dirname( file.path ),Ignores[i] ) );
