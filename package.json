@@ -1,6 +1,6 @@
 {
   "name": "distignore",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Used with gulp.src tp remove files excluded by .distignore in gulp pipelines.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "event-stream": "^4.0.1",
-    "gulp-filter": "^9.0.1",
     "minimatch": "^10.0.1"
   }
 }
